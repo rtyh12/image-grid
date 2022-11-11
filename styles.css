@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 20em;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin: auto;
+    justify-content: center;
+}
+
+.img-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 20em;
+}
+
+.image {
+    background-color: red;
+    height: 300px;
+}
